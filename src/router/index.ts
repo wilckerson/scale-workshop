@@ -68,6 +68,11 @@ const router = createRouter({
       component: () => import('../views/VirtualKeyboardView.vue')
     },
     {
+      path: '/vfb',
+      name: 'virtualFretboard',
+      component: () => import('../views/VirtualFretboardView.vue')
+    },
+    {
       path: '/qwerty',
       name: 'qwerty',
       component: () => import('../views/VirtualQwerty.vue')
